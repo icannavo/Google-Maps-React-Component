@@ -1,0 +1,56 @@
+/* Estilos para o contêiner do mapa */
+.map {
+  height: 425px;
+  margin-left: -21.5em;
+}
+@media (min-width: 767px) {
+  .map {
+    margin-left: -46.5em;  }
+  
+}
+
+
+/* Estilos para o wrapper do mapa */
+.map-wrap {
+  position: relative;
+  width: 80%;
+  height: 80%;
+}
+
+/* Estilos para o overlay do mapa */
+.overlay-map {
+  width: 80%;
+  height: 80%;
+  position: absolute;
+  top: 0;
+  z-index: 11111;
+
+}
+
+/* Estilos para o contêiner da coluna do mapa */
+.map-col {
+  padding: 0;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center; /* Centraliza horizontalmente */
+}
+
+/* Estilos para o elemento do Google Maps */
+.google-maps {
+  width: 80%;
+  height: 80%;
+}
+
+/* Responsividade para telas menores */
+@media (max-width: 768px) {
+  .map {
+      height: 200px; /* Reduz a altura do mapa para telas menores */
+      justify-content: center; /* Centraliza horizontalmente */ 
+      font-size: -1rem !important;
+          
+  }
+}
+
+.body-map{
+  width: 50%;
+}
